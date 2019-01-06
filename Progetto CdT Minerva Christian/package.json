@@ -1,0 +1,19 @@
+{
+  "name": "progetto_codifica_testi",
+  "version": "1.0.0",
+  "description": "Progetto del corso di Codifica di Testi tenuto all'Università di Pisa",
+  "main": "progetto.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefano Tambellini",
+  "license": "ISC",
+  "dependencies": {
+    "alertifyjs": "^1.11.0",
+    "fullpage.js": "^2.9.5",
+    "hover.css": "^2.2.1",
+    "normalize.css": "^7.0.0",
+    "skeleton-css": "^2.0.4",
+    "tippy.js": "^2.0.8"
+  }
+}

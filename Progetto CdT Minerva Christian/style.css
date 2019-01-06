@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "FF_Tisa";
+    src:url("FF_Tisa/FF Tisa OT.otf");
+}
+
+@font-face {
+    font-family: "FF_Tisa_italicoLight";
+    src:url("FF_Tisa/FF Tisa OT Light Italic.otf");
+}
+
+@font-face {
+    font-family: "FF_Tisa_italico";
+    src:url("FF_Tisa/FF Tisa OT Italic.otf");
+}
+
+@font-face {
+    font-family: "FF_Tisa_bold";
+    src:url("FF_Tisa/FF Tisa OT Bold.otf");
+}
+
+@font-face {
+    font-family: "FF_Tisa_Light";
+    src:url("FF_Tisa/FF Tisa OT Light.otf");
+}
+
+
+body {
+    
+    margin: 0 3%;
+    background-color: #f9f7f6;
+    color: #606060;
+    font-family: "FF_Tisa_Light";
+    font-size: 24px;
+    line-height: 150%;
+    
+    counter-reset: a+2; 
+}
+
+h1, h2, h3 {
+    color: #020202;
+    
+    font-family: "FF_Tisa";
+}
+table{
+    margin: 20px; 
+    padding: 0 5% ;
+    font-size: 24px;
+}
+i {
+    font-style: normal;
+    font-family: "FF_Tisa_italicoLight";
+}
+
+strong {
+    font-style: normal;
+    font-family: "FF_Tisa_Bold";
+}
+
+td i{
+    font-family: "FF_Tisa_italico";
+}
+
+.home {
+    padding: 0 5%;
+    text-align: center;
+}
+
+/*MODIFICHE A SKELETON-CSS rimuove i bordi delle "tabelle" di testo"*/
+
+.fp-slides td, th {
+    border: none;
+    text-align: justify;
+}
+
+/*MODIFICHE A FULLPAGES.JS margini e cambia il colore delle frecce laterali*/
+
+.fp-slides {
+    margin: 0 10%;
+}
+
+.pages {
+    margin: 0 1%;    
+}
+
+.fp-controlArrow {
+    border-radius: 1000px;
+}
+
+.fp-controlArrow.fp-next {
+    right: 0;
+    border-left-color: #777777;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 0;
+    border-right-color: #777777;
+}
+
+/*mostra i num pagina pagina in fondo*/
+
+.fp-slidesNav ul li a::before {
+    counter-increment: a;
+    content: counter(a);
+    
+    display: block;
+    padding: 2px;
+    width: 100%;
+    
+    color: #020202;
+    font-size: 50%;
+}
+
+.fp-slidesNav.bottom ul li a:hover::before {
+    left:0;
+}

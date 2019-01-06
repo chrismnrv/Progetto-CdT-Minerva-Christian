@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="progetto.xsl"?>
+<!DOCTYPE TEI SYSTEM "myTEI.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Progetto di Codifica di testi</title>
+                <respStmt>
+                    <resp>Conversione TEI a cura di </resp>
+                    <name xml:id="CM">Christian Minerva</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Einaudi Super ET</edition>
+                <respStmt>
+                    <resp>Traduzione</resp>
+                    <name>Giorgio Amitrano</name>
+                </respStmt>
+            </editionStmt> 
+            
+            <publicationStmt>
+                <publisher>Einaudi</publisher>
+                <pubPlace>Torino</pubPlace>
+                <date when="2013">2013</date>
+                <idno type="ISBN">978-88-06-21646-7</idno>
+                <availability status="restricted">
+                    <licence>© 2006 e 2013 Giulio Einaudi Editore s.p.a., Torino</licence>
+                </availability>
+                <distributor>Einaudi</distributor>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m">Norwegian Wood - Tokyo Blues</title>
+                            <author>Haruki Murakami</author>
+                            <editor role="translator">Giorgio Amitrano</editor>
+                            <editor role="preface">Giorgio Amitrano</editor>
+                        <imprint>
+                            <publisher>Einaudi</publisher>
+                            <pubPlace>Italia</pubPlace>
+                            <date when="2013">2013</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="chapter1">
+            <div>
+                    <head type="chapter1" n="1">
+                        I.
+                    </head>
+
+             <p>Avevo <num value="37">trentasette </num> anni, ed ero seduto a bordo di un <foreign xml:lang="ing">Boeing</foreign> <num value="747"> 747</num>.Il gigantesco velivolo aveva cominciato la discesa attraverso densi strati di nubi piovose, e dopo poco sarebbe atterrato all’aeroporto di <name type="place">Amburgo</name>.
+             La fredda pioggia di novembre tingeva di scuro la terra trasformando tutta la scena, con i meccanici negli impermeabili, le bandiere issate sugli anonimi edifici dell’aeroporto e l’insegna pubblicitaria della <orgName><abbr type="acronym">Bmw</abbr></orgName>, in un tetro paesaggio di scuola fiamminga.
+             È proprio vero: sono di nuovo in <name type="place">Germania</name>, pensai.<lb/>
+             Quando l’aereo ebbe completato l’atterraggio, la scritta «<quote>Vietato fumare</quote>» si spense e dagli altoparlanti sul soffitto cominciò a diffondersi a basso volume una musica di sottofondo.
+             Era <foreign xml:lang="ing">Norwegian Wood</foreign> dei <orgName xml:lang="ing">Beatles</orgName> in una annacquata versione orchestrale.
+             E come sempre mi bastò riconoscerne la melodia per sentirmi turbato. Anzi, questa volta ne fui agitato e sconvolto come non mi era mai accaduto.<lb/>
+             Nel tentativo di calmarmi, mi piegai coprendomi la faccia con le mani e restai assolutamente immobile. Dopo qualche istante la <rs type="person" xml:lang="ing">hostess</rs> tedesca si avvicinò e mi chiese in inglese se mi sentissi male.
+             Non è nulla, risposi, solo un giramento di testa.<lb/></p>
+             <p>– <q>Davvero non posso fare niente per lei?</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Davvero, non è nulla. Grazie,</q> – dissi.<lb/>
+             La <rs type="person" xml:lang="ing">hostess</rs> mi sorrise e si allontanò. 
+             La musica di sottofondo era adesso un pezzo di <persName><forename type="stagename">Billy</forename><surname> Joel</surname></persName>.
+             Sollevai il viso, e mentre guardavo le nuvole scure sospese sopra il Mare del Nord, la mia mente andò a tutte le cose che avevo perduto nel corso della vi<pb xml:id="page4" n="4"/>ta.</p>
+             </div>
+             </div>
+             
+             <div type="page" n="4">
+             <div> 
+
+             <p>Il tempo passato, le persone morte o mai piú riviste, le emozioni che non possono rivivere.<lb/>
+             Fino a quando l’aereo non si fu completamente arrestato e i passeggeri non si slacciarono le cinture e
+             cominciarono a prendere borse e soprabiti dai portabagagli, rimasi tutto il tempo in quel prato.
+             Assaporavo il profumo dell’erba, sentivo il vento sulla pelle e i gridi degli uccelli.
+             Era l’autunno del <date when="1969">1969</date>, e di lí a poco avrei compiuto <num value="20">vent’</num>anni.<lb/></p>
+             <p> La <rs type="person" xml:lang="ing">hostess</rs> di prima tornò, si sedette nel posto accanto al mio e mi chiese:
+             – <q type="spoken" who="hostess">Tutto bene?</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Sto bene adesso, grazie. All’improvviso mi era venuta un po’ di malinconia,</q> –
+             dissi sorridendo.
+             – <q type="spoken" who="Watanabe">Tutto qui.</q><lb/></p>
+             <p>– <q type="spoken" who="hostess">Capisco. Succede anche a me qualche volta,</q> – rispose lei.
+             Scosse un po’ la testa, si alzò e con un sorriso molto carino mi disse:
+             – <q type="spoken" who="hostess">Le auguro buon viaggio. <foreign xml:lang="ted"> Auf Wiedersehen</foreign>.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe"><foreign xml:lang="ted">Auf Wiedersehen</foreign>, </q>– dissi io.</p>
+             <p>Anche adesso che sono passati <num value="18">diciott'</num>anni, riesco ancora a ricordare chiaramente
+             quel prato e il paesaggio intorno. Le montagne, che una dolce pioggia interminabile aveva lavato dalla 
+             polvere di tutta un’estate, si erano ricoperte di un verde profondo e smagliante, il vento di ottobre 
+             faceva fremere qui e là le piume dei <foreign xml:lang="giapp">susuki</foreign> e nuvole lunghe e sottili aderivano perfettamente alla sommità
+             del cielo, azzurro e trasparente come una lastra di ghiaccio. Il cielo era cosí infinito che a guardarlo 
+             fisso dava le vertigini. Il vento attraversava il prato facendo ondeggiare leggermente i capelli di lei prima
+             di perdersi nel bosco. Sulle cime degli alberi le foglie frusciavano e in lontananza si sentiva un cane abbaiare.
+             Era un abbaiare cosí lontano e fioco che sembrava provenire dai confini di un altro mondo. Ma per il resto 
+             il silenzio era assoluto. Nessun altro suono arrivava alle nostre orecchie, e non incontrammo anima viva.
+             Vedemmo solo <num value="2">due</num> uccelli di un rosso fiammante alzarsi in volo come se qualcosa li 
+             avesse spaventati, e allontanarsi in direzione del bosco. Mentre camminavamo, <name type="person">Naoko</name>
+             mi raccontava del pozzo.<pb xml:id="page5" n="5"/></p>
+             </div>
+             </div>
+            
+             <div type="page" n="5">
+             <div>
+                 
+             <p>Strana cosa la memoria. Nel momento in cui mi trovavo realmente lí, non mi rendevo nemmeno conto del paesaggio. 
+             Non mi sembrava che avesse niente di particolare, e non immaginavo neanche lontanamente che <num value="18">diciott'</num>anni.
+             dopo avrei potuto ricordarmelo fin nei minimi dettagli. A dire la verità, in quel periodo non avrebbe potuto importarmene 
+             meno del paesaggio. Pensavo solo a me stesso, alla ragazza cosí bella che camminava al mio fianco, alla nostra storia, e poi
+             ancora a me. Era un’età in cui qualunque cosa io potessi vedere, sentire, pensare, mi tornava sempre nelle mani come un
+             <foreign xml:lang="ing">boomerang</foreign>. Per giunta ero innamorato, e quell’amore mi aveva portato in una situazione
+             terribilmente complicata. Non c’era nessuno spazio per accorgersi del paesaggio.<lb/></p>
+             <p>Eppure adesso la prima cosa che affiora nella mia mente è proprio quel prato tra le montagne. L’odore dell’erba, il vento 
+             che portava dentro sé un gelo sottile, il profilo dei monti, l’abbaiare di un cane: sono queste le cose che per prime mi si
+             affacciano alla mente. Chiarissime. Talmente chiare che ho quasi l’impressione, se allungo la mano, di poterne seguire i 
+             contorni con le dita ad una ad una. Ma in questo paesaggio non ci sono figure umane. Non c’è nessuno. <name type="person">Naoko</name>
+             non appare, io nemmeno. E mi chiedo dove siamo andati a finire noi <num value="2">due</num>.<said> Come è potuto succedere? 
+             Dove è andato a finire tutto quello che ci sembrava cosí prezioso, dov’è lei e dov’è la persona che ero allora, il mio mondo? 
+             </said> Ma è inutile, ormai non riesco nemmeno a ricordare facilmente il viso di <name type="person">Naoko</name>.
+             Quello che mi resta è solo lo sfondo: un paesaggio senza figure.<lb/></p>
+             <p>Naturalmente, con un po’ di tempo riesco a richiamare alla mente il suo viso. Ma prima appaiono le sue piccole mani fredde,
+             quei bei capelli lisci cosí leggeri al tocco, i lobi delle orecchie morbidi e rotondi con sotto un piccolo neo, l’elegante
+             cappotto di cammello che portava spesso d’inverno, quel suo modo di fare una domanda guardando sempre l’altro dritto negli
+             occhi, la voce che a volte tremava per qualche ragione (era come se parlasse su una collina dove soffiava un vento fortissimo).<pb xml:id="page6" n="6"/></p>
+             </div>
+             </div> 
+                    
+             <div type="page" n="6">                      
+             <div>
+                 
+             <p>E solo se metto insieme tutte queste immagini, ad una ad una, allora il suo viso mi appare naturalmente, in un soffio.
+             Prima riaffiora il suo profilo. Sarà forse perché io e <name type="person">Naoko</name> camminavamo sempre fianco a fianco.
+             Sí, dev’essere per questo che è sempre la cosa che ricordo per prima. Poi lei si volta verso di me, mi sorride dolcemente
+             con il collo un po’ inclinato e comincia a parlare, frugando nei miei occhi. Come se cercasse l’ombra di un pesciolino che
+             guizza sul fondo di una chiara fontana.<lb/></p>
+             <p>Però, per ritrovare in questo modo il viso di <name type="person">Naoko</name>, ci vuole un po’ di tempo.
+             E col passare degli anni, il tempo si allunga sempre di piú. È triste ma è cosí. Mentre prima per ricordarla mi bastavano <num value="5">cinque</num>
+             secondi, i <num value="5">cinque</num> secondi sono diventati dieci, poi trenta, poi un minuto.
+             Il tempo si è allungato pian piano, come le ombre al tramonto.
+             E mi chiedo se di questo passo alla fine il suo viso non sarà inghiottito dall’oscurità.
+             Non c’è dubbio che la mia memoria si stia allontanando da <name type="person">Naoko</name>.
+             Proprio come io mi sto allontanando dal ragazzo che ero allora.
+             Cosí solo quel paesaggio, il paesaggio di quel prato in ottobre, come la scena chiave di un film, mi ritorna senza fine alla mente.
+             E quell’immagine continua insistente, in qualche parte di me, a tirarmi dei calci e a gridare:
+             <said><emph>ehi, svegliati!</emph> Non vedi che sono ancora qui? Svegliati e sforzati
+             di capire. Di capire cosa ci sto ancora a fare qui.</said><lb/></p>
+             <p>Non è che mi faccia male. Non provoca nessun dolore.
+             Ogni volta che tira dei calci si sente solo un rumore sordo, un rumore che forse finirà prima o poi anch’esso per scomparire come è scomparso tutto il resto.
+             Ma in quell’aereo della <orgName>Lufthansa</orgName> nell’aeroporto di <name type="place">Amburgo</name>,
+             tutte queste immagini hanno continuato a sferrarmi dei calci, piú a lungo delle altre volte e con piú forza che mai.
+             <emph>Svegliati, sforzati di capire!</emph> È per questo che sto scrivendo.
+             Sono uno di quelli che per capire le cose ha assolutamente bisogno di scriverle.<lb/></p>
+             <p>Che cosa mi stava raccontando <name type="person">Naoko</name> quel giorno?<lb/>
+             Ma sí, certo, era la storia del pozzo. Se quel pozzo esistesse davvero, non l’ho mai saputo. Può anche darsi che fosse un’immagine</p><pb xml:id="page7" n="7"/>
+             </div>
+             </div>
+            
+             <div type="page" n="7">
+             <div>
+                 
+             <p>o un simbolo che esisteva solo dentro di lei, un altro dei tanti fili che in quei giorni bui <name type="person">Naoko</name>
+             tesseva nella mente.
+             Ma dopo aver sentito da lei questa storia, è impossibile per me ricordare il prato senza vedere il pozzo.
+             L’immagine di quel pozzo che non ho mai visto con i miei occhi, nelle mia testa si è fusa saldamente con quel paesaggio, diventandone parte inseparabile.
+             Posso perfino descriverlo nei dettagli.
+             Il pozzo si trova proprio al confine tra la fine del prato e l’inizio del bosco.
+             L’erba nasconde ingegnosamente quel buco scuro dal diametro di circa un metro, che si spalanca nel suolo.
+             Non ha attorno né una recinzione né un parapetto.
+             Non è altro che un buco aperto nel terreno.
+             Il suo orlo di pietra sbiadito dalle intemperie ha acquistato uno strano colore biancastro, e in alcuni punti è spaccato o frantumato.
+             Si possono vedere piccole lucertole verdi infilarsi agili tra le fenditure.
+             Anche se ci si sporge e si prova a guardare nel buco, non si riesce a vedere niente.
+             Si capisce solo che è paurosamente profondo. Profondo al di là di ogni immaginazione.
+             E in quel buco si annida il buio, un buio cosí fitto che sembra concentrare tutte le varietà di tenebra che esistono nel mondo.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">È davvero… davvero profondo, sai?</q> – aveva detto <name type="person">Naoko</name>, scegliendo le parole con cura.
+             Era cosí che a volte parlava: lentamente, cercando le parole adatte.
+             – <q type="spoken" who="Naoko">È davvero profondo. Però nessuno sa esattamente dove sia. La sola cosa sicura è che si trova da queste parti.</q><lb/>
+             Poi, le mani ficcate nelle tasche della giacca di <foreign xml:lang="ing">tweed</foreign>, mi guardò con un sorriso convinto.<lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Ma allora è pericolosissimo, </q>dissi io.
+             – <q type="spoken" who="Watanabe">Si sa che da qualche parte c’è un pozzo profondo,
+             ma nessuno sa dove si trova. Se uno ci cade dentro, è spacciato.</q><lb/></p>
+             <p>– <q type="spoken" who="Naokoe">Se uno ci cade dentro, è finito. <emph>Fiuuu… ploff!</emph> E addio.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Ma non succede qualche volta?</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Ogni tanto sí. Piú o meno una volta ogni <num value="2">due</num> o <num value="3">tre</num> anni.
+             Qualcuno scompare all’improvviso, e non si riesce piú a trovare. Allora la gente di qui dice:<quote> ah, un altro caduto nel pozzo.</quote></q><lb/><!--la gente dice usa il quote-->
+             – <q type="spoken" who="Watanabe">Non mi sembra un bel modo di morire,</q> – dissi.<pb xml:id="page8" n="8"/><lb/></p>
+             </div>
+             </div>
+             
+             <div type="page" n="8">
+             <div>
+                 
+             <p>– <q type="spoken" who="Naoko">È una morte orribile,</q> – disse lei, staccandosi i fili d’erba impigliati nella giacca.
+             – <q type="spoken" who="Naoko">Se uno si rompe l’osso del collo e muore all’istante d’accordo, ma metti che nella caduta si procuri solo una distorsione
+             alla gamba o roba del genere, allora sono guai.
+             Anche a cercare di gridare con tutte le proprie forze, non sentirebbe nessuno e non ci sarebbe nessuna speranza di essere ritrovati.
+             Immaginati restare lí al buio, con il corpo immerso nell’acqua, tra nugoli di millepiedi e ragni e le ossa di quelli morti laggiú sparse dappertutto.
+             E il tondo di luce fermo lassú in alto piccolo piccolo come la luna d’inverno.
+             A stare in un posto simile si muore lentamente e da soli.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Vengono i brividi solo a pensarci,</q> – dissi io.
+             – <q type="spoken" who="Watanabe">Qualcuno dovrebbe trovare questo pozzo e fargli attorno un recinto.</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Ma è impossibile trovarlo. È per questo che non devi allontanarti dalla strada principale.</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Ma io non mi allontano.</q><lb/></p>
+             <p><name type="person">Naoko</name> tirò fuori dalla tasca la mano destra e strinse la mia.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Comunque tu non corri pericoli. Non c’è niente di cui ti devi preoccupare.
+             Potresti anche camminare da queste parti in una notte buia alla cieca, senza pericolo di cadere nel pozzo.
+             Anch’io, se stessi attaccata a te come adesso, non cadrei.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Sei sicura?</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Sicurissima.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Come fai a saperlo?</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Lo so. Lo so e basta,</q> – disse <name type="person">Naoko</name>, sempre tenendomi forte la mano.
+             Per un po’ continuammo a camminare in silenzio, quindi riprese:
+             – <q type="spoken" who="Naoko">Questo tipo di cose per me sono molto chiare.
+             Non è un fatto logico, sono solo sensazioni.
+             Per esempio, adesso che cammino attaccata forte a te, non ho nemmeno un po’ di paura.
+             Il buio e il male non possono trascinarmi via.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Allora, il problema è molto semplice. Basta che stiamo sempre come adesso,</q> – dissi io.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Stai parlando sul serio?</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Certo che parlo sul serio.</q><lb/></p>
+             <p><name type="person">Naoko</name> si fermò. Anch’io mi fermai.
+             Mi appoggiò le mani sulle spalle e stando di fronte a me mi guardò diritto negli oc<pb xml:id="page9" n="9"/>chi.</p>
+             </div> 
+             </div>
+            
+             <div type="page" n="9">
+             <div>
+                 
+             <p>Un liquido nero e denso nel fondo delle sue pupille formava strani diagrammi a forma di spirale. Per un lungo istante quei suoi bellissimi
+             occhi mi scrutarono dentro. Poi, sollevandosi sulla punta dei piedi, appoggiò dolcemente la sua guancia sulla mia. Fu un gesto cosí affettuoso
+             e disarmante che per un attimo ebbi un nodo alla gola.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Grazie,</q> – disse <name type="person">Naoko</name>.<lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Non c'è di che,</q> – risposi.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Sono cosi felice di sentirtelo dire. Davvero,</q> – disse lei con un sorriso triste.
+             – <q type="spoken" who="Naoko">Ma questo non è possibile.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Perchè?</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Perché non può essere. Perché sarebbe assurdo. Perché…</q> –
+             stava per continuare, ma di colpo si interruppe e continuò a camminare in silenzio.
+             Rendendomi conto che molti pensieri le giravano in cerchio nella mente, camminai accanto a lei senza aggiungere altro.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Perché sarebbe una cosa ingiusta. Sia per te che per me,</q> – riprese dopo una lunga pausa.
+             – <q type="spoken" who="Watanabe">In che senso sarebbe ingiusto?</q> – chiesi con voce calma.
+             – <q type="spoken" who="Naoko">Perché è impossibile che qualcuno possa sempre proteggere un altro, in eterno. Metti che, è solo un esempio, 
+             metti che io mi sposassi con te. Tu lavoreresti da qualche parte.
+             Allora, nei momenti in cui tu saresti al lavoro, chi ci sarebbe a proteggermi?
+             Chi ci sarebbe a proteggermi quando tu fossi in viaggio d’affari?
+             Pensi che potrei andare in giro attaccata a te come adesso fino alla morte?
+             Non sarebbe un rapporto alla pari, non credi?
+             Non si potrebbe nemmeno chiamare veramente «<soCalled>rapporto</soCalled>».
+             E poi tu prima o poi non ne potresti piú di me. Ma che razza di vita è questa? penseresti.
+             <emph>Ne ho abbastanza di farle da baby-sitter!</emph>
+             E io ne soffrirei da morire. Come vedi, questo non risolverebbe il mio problema.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Ma non dico che questo dovrebbe durare per tutta la vita,</q> – dissi appoggiandole la mano sulla schiena.
+             – <q type="spoken" who="Watanabe">Un giorno finirebbe. E quel giorno potremmo ripensarci e dire: e adesso che facciamo?
+             E forse allora potresti essere tu ad aiutare me. Non si vive mica in modo cosí fiscale, controllando le entrate e le</q><pb xml:id="page10" n="10"/></p>
+             </div>
+             </div>
+            
+             <div  type="page" n="10">
+             <div>
+                 
+             <p><q>uscite. Se tu adesso hai bisogno di me, che c’è di male ad appoggiarti a me? Perché vedi le cose in modo cosí rigido? Prova a lasciarti andare.
+             È perché sei tutta cosí tesa che vedi le cose in questo modo. Se ti rilassi un po’, tutto ti sembrerà piú leggero.</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Perché dici questo?</q> – chiese <name type="person">Naoko</name>, e la sua voce suonò terribilmente arida.<lb/></p>
+             <p>Dal suo tono capii che dovevo aver detto qualcosa di sbagliato.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Perché?</q> – ripeté <name type="person">Naoko</name> guardando fisso la terra ai suoi piedi.
+             – <q type="spoken" who="Naoko">A capire che se uno si rilassa si sente piú leggero ci arrivo anch’io.
+             Ma non capisci quanto è assurdo dirmi una cosa del genere?
+             E sai perché? Se io provassi a rilassarmi, andrei a pezzi.
+             Ho sempre vissuto cosí, da tanto tanto tempo, e anche adesso è l’unico modo in cui posso vivere.
+             Se una sola volta mi lasciassi andare, non potrei piú tornare indietro.
+             E se andassi a pezzi, il vento mi spazzerebbe via. Perché non lo capisci?
+             Come pensi di potermi aiutare se non riesci a capire questo?</q><lb/></p>
+             <p>Rimasi in silenzio.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">C’è in me una confusione molto piú grave di quanto tu credi. Buio, freddo, e confusione…
+             Perché quella volta hai fatto l’amore con me? Perché non mi hai lasciata in pace?</q><lb/></p>
+             <p>Camminavamo in un bosco di pini immobile e silenzioso.
+             I cadaveri disseccati delle cicale morte alla fine dell’estate, sparsi sulla strada, scricchiolavano sotto le nostre scarpe.
+             Io e <name type="person">Naoko</name> camminavamo lentamente tra i pini con lo sguardo rivolto al terreno come se stessimo
+             cercando qualche oggetto smarrito.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Scusa,</q> – disse <name type="person">Naoko</name> stringendomi con dolcezza il braccio.
+             Poi scosse la testa.
+             – <q type="spoken" who="Naoko">Non volevo ferirti. Non fare caso a quello che ho detto.
+             Mi dispiace veramente. In realtà ce l’avevo solo con me.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Forse non ti capisco ancora fino in fondo,</q> – dissi.
+             – <q type="spoken" who="Watanabe">Io non ho una mente tanto acuta, e per capire bene ho bisogno di tempo.
+             Ma con un po’ di tempo penso che potrei riuscirci davvero, e forse capirti meglio di chiunque altro al mondo.</q><lb/></p>
+             <p>Ci fermammo lí, in mezzo a quella quiete, in ascolto. Io con <pb xml:id="page11" n="11"/></p>
+             </div>  
+             </div>
+             
+             <div type="page" n="11">
+             <div>
+                 
+             <p>la punta della scarpa giocavo con le spoglie delle cicale e le pigne cadute, guardando in alto il cielo tra i rami dei pini.
+             <name type="person">Naoko</name>, le mani di nuovo ficcate nelle tasche della giacca,
+             non guardava niente in particolare ma sembrava assorta nei suoi pensieri.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Ehi, <name type="person">Watanabe</name>, mi vuoi bene?</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Certo,</q> – risposi io.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Ho <num value="2">due</num> favori da chiederti. Puoi ascoltarli?</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Posso ascoltarne anche tre.</q><lb/></p>
+             <p><name type="person">Naoko</name> ridendo scosse la testa.<lb/>
+             – <q type="spoken" who="Naoko"><num value="2">Due</num> bastano. Sono piú che sufficienti.
+             Il primo è che vorrei che tu capissi quanto apprezzo il fatto che tu sia venuto fin qui a trovarmi.
+             Questo mi ha reso molto felice, molto… mi ha fatto veramente bene. Te lo dico nel caso non fosse stato evidente.</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Verrò ancora a trovarti,</q> – dissi.
+             – <q type="spoken" who="Watanabe">E l’altro?</q><lb/></p>
+             <p>– <q type="spoken" who="Naoko">Vorrei che ti ricordassi di me.
+             Ti ricorderai sempre della mia esistenza, e che sono stata accanto a te come in questo momento?</q><lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Certo che me ne ricorderò sempre,</q> – risposi.<lb/></p>
+             <p>Restò ferma qualche passo davanti a me, in silenzio, poi riprese a camminare.
+             La luce autunnale, filtrata dalle cime degli alberi, giocava con l’ombra sulle spalle della sua giacca.
+             Si sentí di nuovo l’abbaiare del cane, ma adesso sembrava un po’ piú vicino.
+             <name type="person">Naoko</name> salí su un cumulo di terra, quasi una collinetta, sbucò fuori dal bosco di pini e
+             scese rapidamente un pendio. Io continuavo a seguirla a <num value="2">due</num>-<num value="3">tre</num> passi di distanza.<lb/></p>
+             <p>– <q type="spoken" who="Naoko">Davvero non ti dimenticherai mai di me?</q> – chiese a voce bassa, quasi in un bisbiglio.<lb/></p>
+             <p>– <q type="spoken" who="Watanabe">Non ti dimenticherò mai,</q> – dissi.
+             – <q type="spoken" who="Watanabe">Ma come pensi che potrei dimenticarti?</q><lb/></p>
+             <p>E invece, inutile negarlo, la memoria si sta allontanando, e ho già dimenticato troppe cose.
+             Nello scrivere seguendo i ricordi come faccio adesso, a volte vengo preso da una terribile<pb xml:id="page12" n="12"/></p>
+             </div>
+             </div>
+             
+             <div  type="page" n="12">
+             <div>
+                 
+             <p>angoscia. All’improvviso mi assale il dubbio di stare perdendo la memoria delle cose piú essenziali.
+             Il dubbio che tutti i miei ricordi piú preziosi, accumulati in qualche zona buia del mio corpo,
+             in una specie di limbo della memoria, si stiano trasformando in una massa fangosa.<lb/></p>
+             <p>Però, comunque siano ridotti, sono l’unica cosa che possiedo. Cosí continuo a scrivere tenendoli stretti,
+             questi ricordi imperfetti che si fanno sempre piú sbiaditi ogni istante che
+             passa, con l’impressione di succhiare un osso spolpato.
+             Ma è l’unico modo che ho di mantenere la promessa fatta a <name type="person">Naoko</name>.<lb/></p>
+             <p>Tanto tempo fa, quando ero ancora giovane e questi ricordi erano molto piú freschi, ho tentato diverse volte di scrivere di lei.
+             Ma allora non sono riuscito a finire neanche un rigo.
+             Sapevo bene che se fossi riuscito a scrivere almeno quel rigo iniziale, poi tutto il resto sarebbe venuto da solo,
+             ma non c’era niente da fare: quel rigo non veniva proprio.
+             Era tutto talmente chiaro che non sapevo da dove cominciare.
+             Era come avere una mappa dettagliata, ma cosí dettagliata da diventare inservibile.
+             Ma adesso capisco. Capisco che in fondo a poter riempire quel contenitore imperfetto che è la scrittura,
+             sono solo ricordi e pensieri altrettanto imperfetti.
+             E poi, piú i ricordi di <name type="person">Naoko</name> sbiadiscono dentro di me, piú sento di capirla.
+             Oggi capisco anche la ragione per cui mi pregò di non dimenticarmi di lei. Naturalmente lo sapeva benissimo.
+             Sapeva che prima o poi in me il suo ricordo avrebbe cominciato a sbiadire.
+             Ed è per questo che mi aveva pregato: «<quote>Non ti dimenticare mai di me. Ricordati sempre che sono esistita</quote>».<lb/></p>
+             <p>Ma a pensarci provo una pena terribile per lei. Perchè <name type="person">Naoko</name> non mi amava nemmeno.</p>
+             </div>
+             </div>
+             
+             <div>
+             <div type="chapter2">
+                    <head type="chapter2" n="2">
+                        II.
+                    </head>
+                            <p>In un tempo molto lontano <said>(in realtà saranno passati al massimo vent’anni)</said>, vivevo in un collegio per studenti.<!--rivedi il said-->
+                            Avevo <num value="18">diciott'anni</num> ed ero appena entrato all’università.
+                            A trovare il collegio erano stati i miei, preoccupati per me che di <name type="place">Tokyo</name> non conoscevo assolutamente niente,
+                            e che andavo a vivere da solo per la prima volta.
+                            L’idea era che, una volta assicurati i pasti principali e i servizi essenziali,
+                            anche il piú sprovveduto ragazzo di <num value="18">diciott'</num>anni poteva in qualche modo cavarsela.
+                            E naturalmente c’era anche la convenienza economica.
+                            La retta del collegio era sicuramente meno costosa di un appartamento.
+                            Noi dovevamo procurarci solo il <foreign xml:lang="giapp">futon</foreign> e una lampada: al resto provvedevano loro.
+                            Certo, fosse stato per me avrei preferito affittare un appartamento e vivere libero e solo, ma considerato quello che
+                            i miei già dovevano spendere per me tra tasse d’iscrizione e frequenza all’università privata e i soldi per le mie spese mensili,
+                            non potevo certo avanzare pretese.
+                            E poi in fondo anche per me un posto o un altro non faceva poi tanta differenza.<lb/></p>
+                            <p>Il collegio si trovava su una collina con una bella vista sulla città. 
+                            L’area dove sorgeva era vasta, delimitata tutt’intorno da un alto muro di cemento.
+                            Passato il cancello, davanti alla facciata si innalzava un gigantesco albero di <foreign xml:lang="giapp">keyaki</foreign>.
+                            Si diceva che avesse almeno <num value="150">centocinquanta</num> anni.
+                            Se stando ai piedi dell’albero si alzavano gli occhi verso l’alto,
+                            le sue foglie verdi erano cosí fitte da nascondere completamente il cielo.<lb/></p>
+                            <p>Il sentiero asfaltato che attraversava il cortile a un tratto si curvava come per scansare quel grande albero, poi tornava a<pb xml:id="page14" n="14"/></p>
+                            </div>     
+                            </div>
+            
+                            <div type="page" n="14">
+                            <div>
+                                
+                            <p>formare una lunga linea retta. Ai lati del cortile <num value="2">due</num> edifici di <num value="3">tre</num> piani in cemento armato si innalzavano paralleli.
+                            Erano <num value="2">due</num> grossi edifici con tante finestre,
+                            che a guardarli facevano pensare a una prigione riconvertita in appartamenti, o ad appartamenti riconvertiti in prigione.
+                            Eppure non davano affatto un’impressione di sporco o di tetro.
+                            Da qualche finestra aperta arrivava il suono della radio.
+                            Ai vetri avevano tutte le stesse tendine color crema, il colore piú resistente alla luce del sole.<lb/></p>
+                            <p>Il sentiero asfaltato proseguiva diritto fino all’edificio principale, di <num value="2">due</num> piani.
+                            Al pianterreno c’era la mensa e la grande sala dei bagni,
+                            al piano superiore l’aula magna e alcune sale di riunione e perfino una sala per ricevere fantomatici ospiti di riguardo,
+                            che non si è mai capito a cosa servisse veramente.
+                            Accanto all’edificio principale c’era il terzo edificio adibito ad alloggi, anch’esso di <num value="3">tre</num> piani.
+                            Il cortile era vasto, e in mezzo all’erba gli innaffiatori automatici ruotavano riflettendo la luce del sole.
+                            Alle spalle dell’edificio principale c’era un campo da gioco usato per il <foreign xml:lang="ing">baseball </foreign>e il calcio,
+                            e <num value="6">sei</num> campi da tennis.
+                            Insomma, non mancava niente.<lb/></p>
+                            <p>L’unico problema del collegio stava nel fatto che sembrava nascondere qualcosa di poco chiaro.
+                            A gestirlo era una non meglio identificata fondazione che ruotava attorno a un personaggio di estrema destra,
+                            e nella politica di gestione, per quanto ne potevo vedere io, c’erano diverse cose stranamente sospette.
+                            Lo si poteva capire chiaramente già leggendo l’opuscolo illustrativo e le regole per gli studenti.
+                            «<quote>Approfondire le basi dell’istruzione e dedicarsi alla formazione di uomini capaci, utili allo stato</quote>»
+                            era lo spirito del collegio, e molti finanzieri che credevano in questo spirito, vi investivano il loro denaro… questo secondo la versione ufficiale,
+                            ma come sempre quello che c’era dietro era ben piú losco.
+                            Nessuno sapeva come stavano le cose con certezza. Secondo alcuni la fondazione del collegio era un semplice espediente per evadere il fisco,
+                            secondo altri una forma di autopromozione, e per altri ancora una vera e propria truffa per mettere le mani su un terreno di grande valore.
+                            Ma c’era anche chi diceva che dietro ci fosse un piano ancora piú sofisticato. Secondo questa in<pb xml:id="page15" n="15"/>terpretazione,</p> 
+                            </div>   
+                            </div>
+            
+                            <div type="page" n="15">
+                            <div>
+                                
+                            <p>scopo dei fondatori era quello di creare un <foreign xml:lang="ing">clan</foreign> occulto di ex studenti del collegio da inserire nel mondo della politica e della finanza.
+                            E in effetti c’era una specie di <foreign xml:lang="ing">club</foreign> esclusivo
+                            che raccoglieva l’<foreign xml:lang="fra">élite</foreign> degli ospiti del collegio, e non so bene i particolari ma ogni mese si tenevano alcuni gruppi di studio con i soci fondatori,
+                            e chi faceva parte del <foreign xml:lang="ing">club</foreign> poteva dimenticare qualsiasi preoccupazione di impiego per il futuro.
+                            È difficile dire tra queste teorie quale si avvicinasse di piú alla verità, ma tutte concordavano su un punto:
+                            in quel collegio c’era qualcosa di poco chiaro.<lb/></p>
+                            <p>Comunque sia, i <num value="2">due</num> anni dalla primavera del <date when="1968">1968</date> a quella del <date when="1970">1970</date>
+                            li passai in questo collegio piuttosto equivoco.
+                            E se qualcuno mi chiedesse come abbia fatto a restare <num value="2">due</num> anni in un posto del genere, non saprei cosa rispondere.
+                            Il fatto è che a livello di vita quotidiana, che fosse di destra o di sinistra, un covo di ipocriti o un nido di benefattori dell’umanità,
+                            non faceva poi tanta differenza.<lb/></p>
+                            <p>e giornate al collegio cominciavano sempre con la solenne cerimonia dell’alzabandiera. 
+                            Naturalmente non senza l’accompagnamento dall’inno nazionale. 
+                            L’alzabandiera era inseparabile dall’inno nazionale come le notizie sportive dalla classica <distinct>marcetta</distinct>.
+                            Il piedistallo su cui era issata la bandiera si trovava al centro del cortile, in modo che potesse essere visto da ogni finestra del collegio.<lb/></p>
+                            <p>La cerimonia dell’alzabandiera era prerogativa del responsabile dell’edificio est (che era quello dove abitavo io). 
+                            Era un uomo sulla sessantina, alto di statura e dallo sguardo di ghiaccio. 
+                            Aveva capelli quanto mai ispidi, qui e là spruzzati di bianco, e una lunga cicatrice gli attraversava la nuca abbronzata. 
+                            Di costui si diceva che venisse dall’<orgName>Accademia militare Nakano</orgName>, ma anche di questo non c’erano prove.
+                            Accanto a lui, a fargli da assistente nell’alzabandiera, c’era uno studente. Questo studente nessuno lo conosceva. 
+                            Aveva i capelli tagliati a spazzola, e portava sempre l’uniforme studentesca. 
+                            Di lui non si sapeva né il nome, né quale fosse la sua stanza. 
+                            Non si fece vedere mai alla mensa né ai bagni. Non era nemmeno sicuro che fosse dav<pb xml:id="page16" n="16"/>vero</p>
+                            </div>
+                            </div>
+            
+                            <div type="page" n="16">
+                            <div>
+                                
+                            <p>uno studente, anche se è pur vero che portava l’uniforme.<!--Rivedi tutti i soCalled e le virgolette-->
+                            Ma a differenza di «<name type="person" subtype="epithet">Accademia Nakano</name>» era basso, grasso e pallido.
+                            E cosí questa coppia inverosimile ogni mattina alle sei in punto eseguiva l’alzabandiera nel cortile del collegio.<lb/></p>
+                            <p>I primi tempi che stavo al collegio, incuriosito da questa cerimonia patriottica, spesso mi alzavo presto apposta per assistervi. 
+                            Alle <time when="6.00">sei del mattino</time>, quasi contemporaneamente al segnale orario della radio, i <num value="2">due</num> appaiono nel giardino.
+                            «<name type="person" subtype="epithet">Uniforme</name>» naturalmente ha l’uniforme studentesca e scarpe di pelle nera
+                            mentre «<name type="person" subtype="epithet">Accademia Militare</name>» è in pullover e scarpe da ginnastica bianche. 
+                            «<name type="person" subtype="epithet">Uniforme</name>» porta una sottile custodia di legno, «<name type="person" subtype="epithet">Accademia</name>» un registratore portatile <orgName>Sony</orgName>. 
+                            «<name type="person" subtype="epithet">Accademia</name>» mette il registratore sotto il piedistallo. 
+                            «<name type="person" subtype="epithet">Uniforme</name>» apre la custodia di legno. 
+                            Dentro, avvolta con cura, c’è la bandiera. <name type="person" subtype="epithet">«Uniforme</name>» porge la bandiera ad «<name type="person" subtype="epithet">Accademia</name>» con atteggiamento solenne.
+                            «<name type="person" subtype="epithet">Accademia</name>» attacca la bandiera alla corda. «<name type="person" subtype="epithet">Uniforme</name>» accende il registratore.<lb/></p>
+                            <p>L'inno nazionale.<lb/></p>
+                            <p>Rapidamente la bandiera viene issata sull’asta, in perfetta sincronia con le parole dell’inno: alla terza strofa la bandiera è a metà dell’asta, all’ultima raggiunge la cima. 
+                            Poi i <num value="2">due</num> raddrizzando bene la schiena si mettono sull’attenti e, la testa alta, guardano fisso la bandiera. 
+                            Se il cielo è sereno e il vento soffia nel modo desiderato, come scena non è niente male.<lb/></p>
+                            <p>Anche l’abbassabandiera, alla sera, segue piú o meno lo stesso cerimoniale, solo che l’ordine dei movimenti è l’esatto opposto del mattino. 
+                            La bandiera viene rapidamente abbassata e riposta nella custodia. Di notte la bandiera non sventola.<lb/></p>
+                            <p>La ragione per cui di sera la bandiera dovesse essere abbassata non l’ho mai capita. 
+                            Anche di notte la nazione continua a esistere, e ci sono tante persone che lavorano. 
+                            Operai delle ferrovie, autisti di taxi, <foreign xml:lang="fra">entraîneuses</foreign>, pompieri di turno, vigilanti;
+                            il fatto che tutte queste persone che lavorano di notte dovessero essere private della protezione della bandiera, mi sembrava un po’ discriminatorio. 
+                            Non che si trattasse di una questione tanto importante. Era quel tipo di cose che la gente non pren<pb xml:id="page17" n="17"/>de nemmeno in considerazione.</p>
+                            </div>       
+                            </div>
+            
+                            <div type="page" n="17">
+                            <div>
+                                
+                            <p>Probabilmente sarò stato il solo a farci caso, e io stesso non ci avrei pensato se non ci fosse stato quel particolare pretesto.
+                            In quell’occasione, comunque, decisi che non valeva la pena di approfondire il problema.<lb/></p>
+                            <p>Per quanto riguarda la divisione delle stanze nel collegio, il regolamento assegnava agli studenti del primo e secondo anno stanze a <num value="2">due</num> letti, e agli studenti del terzo e del quarto stanze singole.
+                            Le stanze doppie superavano un po’ in lunghezza la misura standard di <num value="6">sei</num> <foreign xml:lang="giapp"> tatami</foreign>.
+                            Sul muro opposto all’ingresso c’era una finestra dal bordo di alluminio con davanti <num value="2">due</num> scrivanie e le rispettive sedie, l’una di spalle all’altra per facilitare lo studio.
+                            Appena si entrava sulla destra c’erano <num value="2">due</num> letti a castello di ferro.
+                            La massiccia mobilia era il massimo dell’austerità. 
+                            Oltre alle scrivanie e ai letti c’erano <num value="2">due</num> armadietti, un tavolinetto e degli scaffali a muro.
+                            Era uno spazio da cui era stata bandita la fantasia, a voler essere buoni. 
+                            Negli scaffali della maggior parte delle stanze c’erano radio a <foreign xml:lang="ing">transistor</foreign>, asciugacapelli, bollitori e fornelli elettrici, caffè liofilizzato, tè in bustine, zucchero a cubetti, pentoline per i <foreign xml:lang="giapp">ramen</foreign> istantanei e poche stoviglie essenziali.
+                            Sulle pareti intonacate la <foreign xml:lang="ing">pin-up</foreign> del mese presa da una rivista per soli uomini o il manifesto di un film porno staccato da qualche parte.
+                            C’era anche uno che per scherzo aveva attaccato la foto di <num value="2">due</num> maiali in fase di accoppiamento, ma era una rara eccezione: praticamente sui muri di tutte le stanze c’erano solo foto di donne nude o di giovani cantanti e attrici. 
+                            Sulle scrivanie c’erano libri di testo, dizionari e qualche romanzo.<lb/></p>
+                            <p>Essendo abitate solo da ragazzi, in genere le stanze erano paurosamente sporche.
+                            Bucce di mandarino ammuffite erano attaccate al fondo dei cestini dei rifiuti e le lattine vuote che fungevano da portacenere, con i <num value="10">dieci</num> centimetri di mozziconi inzuppati del caffè o della birra che ci si buttava dentro per spegnerli, emanavano una puzza nauseabonda.
+                            Piatti e posate erano tutti anneriti, sostanze non meglio identificate erano appiccicate un po’ dappertutto e i pavimenti erano disseminati di pezzi di <foreign xml:lang="fra">cellophane</foreign> delle confezioni di <foreign xml:lang="giapp">ramen</foreign> istantanei, bottiglie vuote di birra, coperchi di chissà cosa e altro ancora. A nes<pb xml:id="page18" n="18"/></p>
+                            </div>
+                            </div>
+            
+                            <div type="page" n="18">
+                            <div>
+                                
+                            <p>suno passava per la testa di raccogliere quella sporcizia con scopa e paletta, e di buttarla nel cestino dei rifiuti.
+                            Se entrava un po’ di vento, da terra si alzavano nuvole di polvere.
+                            Ma non è finita: tutte le stanze erano impregnate di un odore terribile, un odore che poteva assumere sfumature diverse a seconda dei casi, ma le cui componenti essenziali erano assolutamente identiche: sudore, umori corporali e spazzatura.
+                            Tutti ficcavano giorno dopo giorno la biancheria sporca sotto il letto, e poi c’erano i <foreign xml:lang="giapp">futon</foreign> mai messi all’aria ad asciugare, impregnati in profondità di sudore, che emanavano un odore implacabile.
+                            Ancora oggi non riesco a spiegarmi come da quel caos non si sia mai sviluppata un’epidemia fatale.<lb/>
+                            ​Però, paragonata alle altre, la mia stanza era pulita come una camera mortuaria.</p>
+                            <p>Pavimento senza un granello di polvere, vetri della finestra limpidi, <foreign xml:lang="giapp">futon</foreign> esposti settimanalmente al sole, matite ben ordinate nel portamatite e perfino tende lavate una volta al mese.
+                            Tutto questo perché il mio compagno di stanza ci teneva morbosamente alla pulizia.
+                            Quando dicevo agli altri: «<q type="mentioned" who="Watanabe">Quello lava perfino le tende</q>» nessuno mi credeva.<!--non è un q perche non è discorso diretto-->
+                            Nessuno credeva che potesse esistere qualcuno capace di lavare periodicamente le tende.
+                            Anche perché non sospettavano neanche che le tende si potessero, volendo, staccare. «<quote>Strano tipo</quote>», dicevano comunque di lui.
+                            E presto cominciarono a chiamarlo «<quote>il Nazi</quote>» o «<quote>Sturmtruppen</quote>».<lb/></p>
+                            <p>Nella nostra stanza non c’erano nemmeno foto di <foreign xml:lang="ing">pin-up</foreign> attaccate al muro.
+                            In compenso avevamo la foto di un canale di <name type="place">Amsterdam</name>.
+                            Avevo provato a mettere una foto di nudo ma lui la staccò dicendo:
+                            – <q type="spoken" who="Sturmtruppen"><name type="person">Watanabe</name>, a <seg type="stutter">m…</seg> me questo tipo di cose non piace molto</q>.
+                            E al suo posto attaccò la foto del canale di <name type="place">Amsterdam</name>.
+                            Siccome anch’io non è che ci tenessi poi tanto alle foto di <foreign xml:lang="ing">pin-up</foreign>, non protestai.
+                            Ma quelli che venivano nella nostra stanza a trovarmi, vedendo il <foreign xml:lang="ing">poster</foreign> del canale facevano:
+                            «<quote>Eeh? E quello che roba è?</quote>»
+                            «<q type="mentioned" who="Watanabe"><name type="person" subtype="epithet">Sturmtruppen</name> lo guarda per farsi le seghe</q>», buttavo lí.<!--non è un q perche non è discorso diretto-->
+                            Naturalmente io intendevo scherzare, ma tutti mi presero alla lettera.
+                            E dato che ne erano cosí pienamente convinti, cominciai a pensare anch’io che forse era vero.<lb/><pb xml:id="page19" n="19"/></p>
+                            </div>    
+                            </div> 
+            
+                            <div type="page" n="19">
+                            <div>
+                                
+                            <p>Tutti mi compativano per il fatto che mi toccava dividere la stanza con <name type="person" subtype="epithet">Sturmtruppen</name>,
+                            ma a me la cosa non sembrava poi tanto spiacevole.
+                            Anzi, dato che oltre a tenere la mia roba in ordine, non mi era richiesto di fare nient’altro, per me era piú che altro una pacchia.
+                            Era lui che pensava a pulire, lui che metteva all’aria i <foreign xml:lang="giapp">futon</foreign> , lui che si occupava dei rifiuti.
+                            Se, preso dai miei impegni, saltavo il bagno per tre giorni di seguito, dopo avermi annusato mi consigliava di provvedere,
+                            e mi avvertiva perfino quando era ora di andare dal barbiere o di tagliarmi i peli del naso. 
+                            L’unico problema era se entrava un insetto, perché lui si metteva a spruzzare insetticida per tutta la stanza,
+                            e io ero costretto a rifugiarmi nel caos della stanza accanto.<lb/></p>
+                            <p><name type="person" subtype="epithet">Sturmtruppen</name> studiava geografia in una università statale.<lb/>
+                            – <q type="spoken" who="Sturmtruppen">Io studio le <seg type="stutter">m… m…</seg> mappe,</q> mi disse la prima volta che ci conoscemmo.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Ti piacciono le mappe?</q> – gli chiesi.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Hmm. Finita l’università, entrerò all’ <orgName>Istituto cartografico di Stato</orgName>
+                            e mi dedicherò alla realizzazione di <seg type="stutter">m… m…</seg> mappe.</q><lb/></p>
+                            <p><emph>Però!</emph> Quante ambizioni, quanti scopi di vita diversi ci sono nel mondo, dovetti riconoscere ancora una volta con ammirazione.
+                            Era una delle cose che piú mi avevano colpito appena arrivato lí a <name type="place">Tokyo</name>.
+                            Certo, se non ci fossero almeno un po’ di persone con il pallino per la cartografia –<said> e per fortuna ne bastano pochissime </said>– sarebbe un problema, mi rendevo conto.
+                            E tuttavia non potevo fare a meno di trovare strano il fatto che uno che balbettava ogni volta che pronunciava la parola «<quote>mappa</quote>» desiderasse lavorare proprio in un istituto di cartografia.
+                            Infatti nel parlare a volte balbettava a volte no, ma se pronunciava la parola «<quote>mappa</quote>» balbettava sicuramente, era matematico.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">E <seg type="stutter">t…</seg> tu che cosa studi?</q> – mi chiese lui.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Teatro,</q> – risposi.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Teatro… fai spettacoli?</q><lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">No, tutt’altra roba. Facciamo lettura di testi, ricerca… <persName><surname>Racine</surname></persName>, <persName><surname>Ionesco</surname></persName>,
+                            <persName><surname>Shakespeare</surname></persName>, cose del genere.</q><lb/></p>
+                            <p>Disse che a parte <persName><surname>Shakespeare</surname></persName> gli altri non li aveva mai sen<pb xml:id="page20" n="20"/>titi</p>
+                            </div>
+                            </div>
+            
+                            <div type="page" n="20">
+                            <div>
+                                
+                            <p>nominare. Spiegai che anch’io in effetti li avevo solo sentiti nominare. Erano nel programma dei corsi.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Comunque è questo che a te piace, no?</q> – fece lui.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">No, non particolarmente,</q> – dissi.<lb/></p>
+                            <p>La mia risposta sembrò turbarlo. Ogni volta che era turbato la sua balbuzie peggiorava drammaticamente. Mi sentii subito in colpa.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Sai, non ho interessi particolari,</q> – cercai di spiegargli.
+                            – <q type="spoken" who="watanabe">Mi sarebbe andata bene anche <mentioned>etnologia</mentioned> o storia orientale. È stato piú che altro un caso che mi ha fatto scegliere il teatro. Tutto qui.</q><lb/>
+                            Ma naturalmente quella spiegazione non serví a convincerlo.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Non capisco,</q> – disse lui, con l’espressione di chi proprio non sa capacitarsi.
+                            – <q type="spoken" who="Sturmtruppen">Io <seg type="stutter">p…</seg> per esempio studio le <seg type="stutter">m…</seg> mappe perché a me piacciono
+                            le <seg type="stutter">m… m…</seg> mappe, e perciò sono venuto all’università a <name type="place">Tokyo</name>, e mi faccio mantenere dai miei.
+                            Ma tu dici che per te non è cosí, e allora…</q><lb/></p>
+                            <p>Il suo punto di vista era molto piú logico.
+                            Mi arresi. Poi tirammo i fiammiferi per decidere come dividerci i posti sul letto a castello.
+                            A lui andò il letto di sopra, a me quello di sotto.
+                            Era sempre vestito con una camicia bianca, pantaloni neri e pullover blu scuro.
+                            Era alto, aveva i capelli tagliati a spazzola e gli zigomi pronunciati.
+                            Quando andava all’università si metteva sempre l’uniforme. Sia le scarpe che la cartella erano nere come l’inchiostro.
+                            A vederlo aveva l’aspetto di uno studente di destra, ed era per questo che al collegio lo chiamavano <name type="person" subtype="epithet">Sturmtruppen</name>,
+                            ma in realtà la politica gli era totalmente indifferente.
+                            La sola ragione per cui stava sempre vestito a quel modo era che scegliere i vestiti era troppo faticoso.
+                            Quello che lo interessava veramente erano solo le modificazioni nella linea costiera,
+                            il completamento di un nuovo tunnel ferroviario e cose di questo genere.
+                            Quando il discorso andava su tali argomenti, lui andava avanti a parlare per una o <num value="2">due</num> ore, finché io non scappavo o mi addormentavo.<lb/></p>
+                            <p>Ogni <time when="6.00">mattina alle sei</time>, con l’inno nazionale per sveglia, si al<pb xml:id="page21" n="21"/>zava</p>
+                            </div>     
+                            </div> 
+            
+                            <div type="page" n="21">
+                            <div> 
+                                
+                            <p>dal letto. E come sveglia bisogna riconoscere che quella sussiegosa e pomposa cerimonia non era affatto inadeguata.
+                            Poi si vestiva e andava al bagno a lavarsi la faccia.
+                            Per fare questo ci metteva un tempo interminabile, tanto da far venire il dubbio che si togliesse i denti uno alla volta per lavarli come si deve.
+                            Ritornato in stanza, con dei colpetti eliminava (<emph>pat! pat!</emph>) le grinze dall’asciugamano e lo metteva ad asciugare sulla stufa, poi rimetteva a posto spazzolino e saponetta.
+                            Quindi cominciava la sua ginnastica seguendo gli esercizi della radio.
+                            Io che la sera leggevo fino a tardi, in genere la mattina dormivo come un sasso fino alle <time when="8.00">otto</time>,
+                            e il piú delle volte continuavo a dormire indisturbato anche durante la sua rumorosa attività mattutina e i suoi esercizi ginnici.
+                            Ma quando il programma di ginnastica della radio arrivava ai salti, mi svegliavo immancabilmente.
+                            Sarebbe stato impossibile non svegliarsi.
+                            Infatti ogni volta che saltava, e saltava veramente alto, la vibrazione del pavimento si trasmetteva al letto con movimenti sussultori.
+                            Per <num value="3">tre</num> giorni sopportai: avevo sempre sentito dire che nella convivenza un certo grado di tolleranza è indispensabile.
+                            Ma al quarto giorno giunsi alla conclusione che avevo sopportato abbastanza.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Scusa, ma la ginnastica con la radio non la potresti fare sul terrazzo o da qualche altra parte?</q> – dissi senza mezzi termini.
+                            – <q type="spoken" who="Watanabe">Se la fai nella stanza mi svegli.</q><lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Ma sono le <time when="6.30">sei e mezzo</time>!</q> – disse lui scandalizzato.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Mi rendo conto. Sono le <time when="6.30">sei e mezzo</time>.
+                            Ma vedi, per me le <time when="6.30">sei e mezzo</time> è ancora tempo di dormire.
+                            Spiegare perché sarebbe complicato, ma purtroppo è cosí.</q><lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">È impossibile. Se la facessi sul terrazzo quelli del terzo piano protesterebbero.
+                            Siccome qui sotto c’è solo un ripostiglio, non do fastidio a nessuno.</q><lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Allora vai a farla in cortile. Sul prato.</q><lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Ma non posso! La <seg type="stutter">m…</seg> mia radio non è a pile, quindi senza la corrente non la posso usare,
+                            e senza la musica della radio non posso fare la ginnastica.</q><lb/></p>
+                            <p>In effetti la sua radio era un modello antidiluviano che an<pb xml:id="page22" n="22"/>dava</p>
+                            </div>     
+                            </div>
+            
+                            <div type="page" n="22">
+                            <div> 
+                                
+                            <p>solo a corrente, e la mia era a pile ma captava unicamente le FM, che trasmettevano solo musica ma non quella per la ginnastica.
+                            <said>Andiamo bene</said>, pensai.<lb/></p><!--controlla il said-->
+                            <p>– <q type="spoken" who="Watanabe">Facciamo un compromesso,</q> – dissi io.
+                            <q type="spoken" who="Watanabe">Io accetto che tu faccia la tua ginnastica con la radio.
+                            In cambio tu ometti i salti, che sono la parte piú rumorosa. Ti va bene cosí?</q><lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">I <seg type="stutter">s…</seg> salti?</q> – chiese lui sbalordito.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Come sarebbe i salti?</q><lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Salti significa salti. Quella parte dove vai su e giú facendo <emph>ponn… ponn</emph>!</q><lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">Ma una parte cosí non c’è!</q><lb/></p>
+                            <p>Cominciava a venirmi mal di testa. Ero pronto ad arrendermi, ma visto che avevo tirato in ballo il discorso pensai che era meglio mettere le cose in chiaro,
+                            cosí cantando il motivetto del programma di ginnastica della radio, mi misi a saltare su e giú.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Vedi? È questo che dico. C’è o non c’è?</q><lb/></p>
+                            <p> – <q type="spoken" who="Sturmtruppen">Ah, <seg type="stutter">g…</seg> già. Effettivamente c’è. Non ci avevo fatto caso.</q><lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Allora…</q> – dissi sedendomi sul letto.
+                            <q type="spoken" who="Watanabe">Ti chiedo di tralasciare solo questa piccola parte.
+                            Per il resto puoi fare quello che vuoi. Eviti solo questo punto coi salti cosí io posso dormire in pace.</q><lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen">È impossibile,</q> disse lui tutto d’un pezzo.
+                            – <q type="spoken" who="Sturmtruppen">È assolutamente impossibile omettere una sola parte del programma.
+                            Sono piú di <num value="10">dieci</num> anni che lo faccio tutti i giorni,e ormai lo faccio in modo completamente <seg type="stutter">a… a…</seg> automatico.
+                            Se comincio a saltarne uno, non riuscirò a farne piú <seg type="stutter">n…</seg> nessuno.</q><lb/></p>
+                            <p>A quel punto non dissi piú niente. <said>Che cos’altro avrei potuto dire?</said>
+                            La soluzione piú rapida sarebbe stata, in un momento in cui lui non c’era, prendere quella maledetta radio e buttarla dalla finestra,
+                            ma già mi immaginavo il finimondo: sarebbe stato come sollevare il coperchio dell’inferno.
+                            Infatti <name type="person" subtype="epithet">Sturmtruppen</name> era uno che ci teneva da morire alle proprie cose.
+                            Mentre, senza piú parole e svuotato, stavo seduto sul letto, <name type="person" subtype="epithet">Sturmtruppen</name>,
+                            con il piú smagliante dei suoi sorrisi, mi consolò.<lb/></p>
+                            <p>– <q type="spoken" who="Sturmtruppen"><seg type="stutter">S…</seg> sai cosa, <name type="person">Watanabe</name>? Potresti svegliarti insieme a me e fare ginnastica anche tu</q> –.
+                            E con queste parole, uscí dalla stanza per andare a fare colazione.<lb/><pb xml:id="page23" n="23"/></p>
+                            </div>
+                            </div>
+            
+                            <div type="page" n="23">
+                            <div>
+                                
+                            <p>Quando raccontai a <name type="person">Naoko</name> la storia di <name type="person" subtype="epithet">Sturmtruppen</name> e della sua ginnastica con la radio, scoppiò a ridere.
+                            Pur non avendo pensato che potesse essere comica, finii col riderci sopra anch’io.
+                            Quel viso ridente – anche se si sarebbe spento in una frazione di secondo – era tanto, davvero tanto che non lo vedevo.<lb/></p>
+                            <p>Io e <name type="person">Naoko</name> eravamo scesi dal métro alla stazione di <name type="place">Yotsuya</name>
+                            e camminavamo lungo i binari che seguivano il fiume, in direzione di <name type="place">Ichigaya</name>.
+                            Era una domenica pomeriggio, verso la metà di maggio. La pioggia che dalla mattina era continuata a intermittenza,
+                            un po’ prima di mezzogiorno era cessata completamente e i tetri nuvoloni che gravavano bassi si erano dileguati, spazzati via dal vento del sud.
+                            Le foglie dei ciliegi, di un verde smagliante, tremavano al vento scintillando alla luce di un sole già estivo.
+                            La gente per le strade si era sfilata giacche e pullover e li portava appoggiati alle spalle o sul braccio.
+                            Sotto il sole caldo della domenica pomeriggio tutti sembravano avere un’aria felice.
+                            In un campo da tennis oltre il fiume, <num value="2">due</num> giovani si erano tolti le magliette e in pantaloncini corti si lanciavano colpi con le racchette.
+                            Solo <num value="2">due</num> suore, sedute su una panchina, con le loro nere tonache invernali,
+                            sembravano non essersi ancora sintonizzate sul cambio di stagione, ma ciò nonostante si godevano soddisfatte le loro chiacchiere sotto il sole.<lb/></p>
+                            <p>Dopo aver camminato per un quarto d’ora avevo la schiena tutta sudata, perciò mi tolsi la pesante camicia di cotone che indossavo e rimasi in <foreign xml:lang="ing">T-shirt</foreign>.
+                            Lei aveva le maniche della felpa rimboccate sopra i gomiti. Era una felpa grigio perla, a cui i molti lavaggi avevano dato una piacevole sfumatura pallida.
+                            Avevo l’impressione di avergliene già vista indossare una identica tanto tempo prima, ma come per altre cose era piú un’impressione che un ricordo preciso.
+                            Non ci eravamo frequentati abbastanza perché potessi ricordare molte cose di lei.<lb/></p>
+                            <p>– <q type="spoken" who="Naoko">Com’è vivere in un collegio? Si sta bene a vivere insieme ad altra gente?</q> – chiese <name type="person">Naoko</name>.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Non lo so neanch’io. È troppo presto per dirlo, è passato</q><pb xml:id="pag24e" n="24"/></p>
+                            </div>
+                            </div>
+            
+                            <div type="page" n="24">
+                            <div>
+                                
+                            <p><q>poco piú di un mese,</q> – dissi.
+                            – <q type="spoken" who="Watanabe">Nell’insieme non mi sembra tanto male. Per lo meno, non c’è niente di troppo insopportabile.</q> – dissi.<lb/>
+                            Lei si fermò davanti a una fontana, bevve un sorso d’acqua, poi tirò fuori dalla tasca dei pantaloni un fazzoletto bianco e si asciugò le labbra.
+                            Quindi si piegò e si riallacciò con cura una scarpa.<lb/></p>
+                            <p>– <q type="spoken" who="Naoko">Pensi che anch’io potrei fare una vita del genere?</q><lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Vivere insieme ad altri?</q><lb/></p>
+                            <p>– <q type="spoken" who="Naoko">Sí,</q> – disse <name type="person">Naoko</name>.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Mah… sai, dipende molto dalla mentalità. Ci sono anche aspetti spiacevoli, senza dubbio.
+                            Le regole sono molto rigide, devi sopportare delle nullità che si credono padreterni, compagni di stanza che alle <time when="6:30">sei e mezzo del mattino</time>
+                            fanno ginnastica con la radio… Ma se pensi che queste cose le ritrovi un po’ dappertutto, non ci fai troppo caso.
+                            E poi se sai che è lí che devi vivere, ti ci abitui. Tutto qui.</q><lb/></p>
+                            <p>– <q type="spoken" who="Naoko">Sí, dev’essere cosí,</q> – convenne lei, e per un po’ sembrò sprofondare nei suoi pensieri.
+                            Poi mi guardò fisso negli occhi, come se stesse esaminando un oggetto insolito e raro.
+                            A guardarli da vicino gli occhi di <name type="person">Naoko</name> erano cosí profondi e trasparenti da dare i brividi.
+                            Non me ne ero mai accorto fino a quel momento, ma d’altra parte non avevo mai avuto l’occasione di fissarli tanto a lungo.
+                            Non solo era la prima volta che camminavamo da soli, ma era anche la prima volta che parlavamo per tanto tempo.<lb/></p>
+                            <p>– <q type="spoken" who="Watanabe">Avevi intenzione di entrare in un collegio?</q> – chiesi.<lb/></p>
+                            <p>– <q type="spoken" who="Naoko">No, non è questo,</q> – disse <name type="person">Naoko</name>.
+                            – <q type="spoken" who="Naoko">Ci pensavo cosí… chiedevo come dev’essere vivere insieme ad altra gente. E poi quello che in effetti volevo dire…</q> –
+                            Si morse le labbra cercando la parola o l’espressione adatta, ma apparentemente senza riuscirci. Sospirò e abbassò lo sguardo.
+                            – <q type="spoken" who="Naoko">Non lo so neanch’io, non importa.</q><lb/></p>
+                            <p>Questo chiuse il discorso. <name type="person">Naoko</name> riprese a camminare verso est.
+                            Io la seguivo, appena dietro. Era passato circa un anno da quando l’avevo vista l’ultima volta.
+                            In quei mesi <name type="person">Naoko</name> era dimagrita al punto da sembrare quasi un’altra. Dalle sue guan<pb xml:id="page25" n="25"/>ce</p>
+                            </div>      
+                            </div> 
+            
+                            <div  type="page" n="25">
+                            <div>
+                                
+                            <p>paffute, che erano la caratteristica del suo viso, era sparita quasi tutta la carne, e anche il collo si era molto assottigliato,
+                            ma sebbene cosí dimagrita non aveva assolutamente un’aria spigolosa o malata.
+                            Il suo dimagramento sembrava dovuto a un processo naturale non traumatico.
+                            Era come se lei si fosse nascosta in un luogo lungo e stretto e il suo corpo si fosse spontaneamente affusolato, per adattarsi a quello spazio.
+                            Capivo adesso che <name type="person">Naoko</name> era molto piú bella di quanto mi fossi mai reso conto.
+                            Avrei voluto dirglielo, ma non seppi trovare le parole giuste, cosí rimasi in silenzio.<lb/>
+                            [...]</p>
+                            </div>
+                            </div>
+                          
+        </body>
+    </text>
+</TEI>
+
